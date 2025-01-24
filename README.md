@@ -11,6 +11,19 @@ Este proyecto es una aplicación interactiva que permite **subir un archivo PDF*
 
 ---
 
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto ha sido desarrollado con las siguientes tecnologías:
+
+-  **Python 3.9+**
+-  **Streamlit** (para la interfaz de usuario)
+-  **LangChain** (para la gestión del chatbot y la recuperación de información)
+-  **GPT-4o** (para responder preguntas sobre texto e imágenes)
+-  **FAISS** (para búsqueda eficiente en embeddings)
+-  **PyMuPDF** (para la extracción de texto e imágenes de PDFs)
+
+ ---
+
 ## 📦 Instalación
 
 1️⃣ **Clona el repositorio**
