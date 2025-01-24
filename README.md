@@ -15,8 +15,23 @@ Este proyecto es una aplicación interactiva que permite **subir un archivo PDF*
 
 1️⃣ **Clona el repositorio**
 ```sh
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/Celia-code13/PDF_chat_app.git
+cd PDF_chat_app
+```
 
+2️⃣ **Instala las dependencias necesarias**
+```sh
+pip install -r requirements.txt
+```
 
-2️⃣ **Instala las dependencias**
+3️⃣ **Configura tu API Key de OpenAI**
+
+***¡OJO! Debes incluir tu API Key de OpenAI en el **archivo .env.example** para poder ejecutar la app.***
+```sh
+OPENAI_API_KEY=tu_clave_de_api_aquí
+```
+
+4️⃣ **Ejecuta la aplicación**
+```sh
+streamlit run app.py
+```
